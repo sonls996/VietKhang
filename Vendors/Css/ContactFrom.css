@@ -1,0 +1,183 @@
+.ContactForm * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+.ContactForm .ContactFrom .container .contact-wrap {
+  height: 100px;
+}
+
+.ContactForm .info p {
+  text-align: center;
+  color: #999;
+  text-transform: none;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.ContactForm .info i {
+  color: #f6aa93;
+}
+
+.ContactForm form h1 {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: #161616 none repeat scroll 0% 0%;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 0px 0px;
+  margin: auto;
+  text-shadow: none;
+  text-align: left;
+}
+
+.ContactForm form {
+  border-radius: 5px;
+  width: 100%;
+  margin: 5% auto;
+  background-color: #ffffff;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0px 10px 1px #ddd;
+          box-shadow: 0 0px 10px 1px #ddd;
+}
+
+.ContactForm p span {
+  color: #f00;
+}
+
+.ContactForm p {
+  margin: 0px;
+  font-weight: 500;
+  line-height: 2;
+  color: #333;
+}
+
+.ContactForm h1 {
+  text-align: center;
+  color: #666;
+  text-shadow: 1px 1px 0px #fff;
+  margin: 50px 0px 0px 0px;
+}
+
+.ContactForm input {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  width: 75%;
+  height: 40px;
+  float: left;
+  padding: 0px 15px;
+  outline: none;
+}
+
+.ContactForm input#fonction {
+  line-height: 40px;
+  background: none;
+}
+
+.ContactForm a {
+  text-decoration: inherit;
+}
+
+.ContactForm textarea {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #eee;
+  margin: 0;
+  width: 75%;
+  height: 130px;
+  float: left;
+  padding: 0px 15px;
+  outline: none;
+}
+
+.ContactForm .form-group {
+  overflow: hidden;
+  clear: both;
+}
+
+.ContactForm .icon-case {
+  width: 70px;
+  float: left;
+  border-radius: 5px 0px 0px 5px;
+  background: #eeeeee;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+}
+
+.ContactForm i {
+  color: #555;
+}
+
+.ContactForm .contentform {
+  padding: 40px 30px;
+}
+
+.ContactForm .bouton-contact {
+  display: inline-block;
+  background-color: #161616;
+  float: right;
+  color: #fff;
+  text-align: center;
+  width: 180px;
+  border: 0;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin-top: 40px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-right: 5%;
+}
+
+.ContactForm .leftcontact {
+  width: 49.5%;
+  float: left;
+  border-right: 1px dotted #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px 15px 0px 0px;
+}
+
+.ContactForm .rightcontact {
+  width: 49.5%;
+  float: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px 0px 0px 15px;
+}
+
+.ContactForm .validation {
+  display: none;
+  margin: 0 0 10px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #de5959;
+}
+
+.ContactForm #sendmessage {
+  border: 1px solid #fff;
+  display: none;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 600;
+  margin-bottom: 30px;
+  background-color: #ebf6e0;
+  color: #5f9025;
+  border: 1px solid #b3dc82;
+  padding: 13px 40px 13px 18px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
+}
+
+.ContactForm #sendmessage.show,
+.ContactForm .show {
+  display: block;
+}
+/*# sourceMappingURL=ContactFrom.css.map */

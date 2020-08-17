@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+.CartRight{
+    top: 0;
+    right: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    // Lớp màn đen giả 
+    .overlay{
+      background-color: rgba($color: #000000, $alpha: 0.6);
+      height: 100%;  
+      flex-grow: 1;
+    }
+    // thông tin chi tiết đơn hàng , giỏi hàng
+    &-detail{
+        max-width: 400px;
+        width: 100%;
+        position: relative;
+        background-color: #F8F8F8;
+        &-container{
+          height: 100%;
+          width: 100%;
+          .cart-btn-select{
+            .view-cart{
+            }
+            .pay-cart{}
+            .cart-btn{
+              padding: 15px 20px;
+              cursor: pointer;
+              font-size: 14px;
+              color: #ffffff;
+              text-transform: uppercase;
+            }
+            .cart-btn_den{
+                background-color: #000000;
+            }
+            .cart-btn_vang{
+                background-color: #ea003c;
+            }
+          }
+          .CartRight-detail-container_total-price{
+              .text{
+
+              }
+              .price{}
+              .text_vnd{
+                  text-decoration: underline;
+              }
+          }
+          .ke{
+              width: 90%;
+              height: 1px;
+              background-color: #ddd;
+              margin: 0 auto;
+          }
+          .list-product{
+              &-item{
+                  max-height: 100px;
+                  &_img{
+                      width: 80px;
+                      height: 80px;
+                      border: 1px solid #ddd;
+                      img{
+                          max-width: 80px;
+                          max-height: 80px;
+                          object-fit: cover;
+                      }
+                  }
+              }
+          }
+        }
+        // button close cart
+        .exit{
+          position: absolute;
+          top: 12px;
+          right: 12px;
+          color: black;
+          font-size: 24px;
+          opacity: .5;
+          font-weight: 500;
+        }
+        .exit:hover{
+          opacity: 1;
+        }
+    }
+  }
+  .list-product-item_detail-title{
+      line-height: 20px;
+  }
+  .icon-exit{
+      background-image: url(../Images/remove-cart2.png);
+      width: 7px;
+      height: 7px;
+  }
+  .chaydi{
+      animation: chaydi 1s  forwards;
+  }
+  .opacity-0{
+      opacity: 0;
+  }
+  @keyframes chaydi {
+      form{
+          transform: translateX(0);
+          opacity: 1;
+      }
+      to{
+          transform: translate(100%);
+          opacity: 0;
+
+      }
+  }

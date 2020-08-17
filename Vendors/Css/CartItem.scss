@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+
+}
+.product-remove a.delete{
+    font-size: 11px;
+}
+.product-name{
+    font-size: 14px;
+    color: #666666;
+    line-height: 20px;
+    font-weight: 400px;
+}
+.product-price{
+    font-size: 14px ;
+    line-height: 20px;
+    color: #1b1d1f;
+}
+.product-subtotal{
+    font-size: 14px ;
+    line-height: 20px;
+    color: #1b1d1f;
+}
+.product-quanitly{
+    .quan{
+        color: black;
+        cursor: pointer;
+        height: 100%;
+    }
+}

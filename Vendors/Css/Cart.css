@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+.Cart-contain .ridirect {
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+
+.Cart-contain .ridirect a {
+  color: #999;
+  text-decoration: none;
+}
+
+.Cart-contain .ridirect a:hover {
+  text-decoration: underline;
+}
+
+.Cart-contain .Cart-title {
+  text-shadow: 0 0 0;
+  color: #1b1d1f;
+  margin: 0 0 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.Cart-contain .Cart-contain-product table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Cart-contain .Cart-contain-product table thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.Cart-contain .Cart-contain-product table thead tr {
+  display: table-row;
+}
+
+.Cart-contain .Cart-contain-product table thead tr th {
+  padding: 20px 15px;
+  border: 1px solid #e5e5e5;
+}
+
+.Cart-contain .Cart-contain-product table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.Cart-contain .Cart-contain-product table tbody tr {
+  display: table-row;
+}
+
+.Cart-contain .Cart-contain-product table tbody tr th {
+  vertical-align: middle;
+  padding: 20px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 400;
+  line-height: 27px;
+  color: .7;
+}
+
+.Cart-contain .Cart-contain-product table tbody tr th a.delete {
+  border-radius: 50%;
+  text-decoration: none;
+  display: inline-block;
+  color: #454545 !important;
+  font-weight: normal;
+  border: 1px solid #e5e5e5;
+  font-size: 16px;
+  height: 31px;
+  width: 31px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.Cart-contain .Cart-contain-product table tbody tr th .product-img {
+  height: 80px;
+  width: 80px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.Cart-contain .Cart-contain-product table tbody tr th .product-img img {
+  max-width: 80px;
+  max-height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Cart-contain .Cart-contain-product .product-advance {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.Cart-contain .Cart-contain-product .product-advance .product-advance-voucher {
+  width: 50%;
+  height: 40px;
+}
+
+.Cart-contain .Cart-contain-product .product-advance .product-advance-voucher .product-advance_btn {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.Cart-contain .Cart-contain-product .product-advance .product-advance-voucher input {
+  height: 40px;
+  padding-left: 20px;
+  width: 100%;
+  outline: none;
+  background: none;
+  border: none;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.Cart-contain .Cart-contain-product .product-advance .product-advance-update .product-advance_btn {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 40px;
+  color: white;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.Cart-contain .Cart-contain-product .payy .product-payal {
+  float: right;
+}
+
+.Cart-contain .Cart-contain-product .payy .product-payal .pay-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #f4f4f4;
+  padding: 21px 14px;
+}
+
+.Cart-contain .Cart-contain-product .payy .product-payal .pay_sub-total .sub-txt {
+  padding: 21px 14px;
+  width: 100px;
+}
+
+.Cart-contain .Cart-contain-product .payy .product-payal .pay_sub-total .sub-price {
+  padding: 21px 14px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  opacity: .7;
+}
+
+.Cart-contain .Cart-contain-product .payy .product-payal .pay-total .sub-txt {
+  padding: 21px 14px;
+  width: 100px;
+}
+
+.Cart-contain .Cart-contain-product .payy .product-payal .pay-total .sub-price {
+  padding: 21px 14px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.Cart-contain .Cart-contain-product .payy .product-payal .thanhtoan {
+  background-color: black;
+  color: #ffffff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Cart.css.map */

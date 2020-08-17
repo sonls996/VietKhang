@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+.CartRight {
+  top: 0;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+
+.CartRight .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.CartRight-detail {
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  background-color: #F8F8F8;
+}
+
+.CartRight-detail-container {
+  height: 100%;
+  width: 100%;
+}
+
+.CartRight-detail-container .cart-btn-select .cart-btn {
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.CartRight-detail-container .cart-btn-select .cart-btn_den {
+  background-color: #000000;
+}
+
+.CartRight-detail-container .cart-btn-select .cart-btn_vang {
+  background-color: #ea003c;
+}
+
+.CartRight-detail-container .CartRight-detail-container_total-price .text_vnd {
+  text-decoration: underline;
+}
+
+.CartRight-detail-container .ke {
+  width: 90%;
+  height: 1px;
+  background-color: #ddd;
+  margin: 0 auto;
+}
+
+.CartRight-detail-container .list-product-item {
+  max-height: 100px;
+}
+
+.CartRight-detail-container .list-product-item_img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ddd;
+}
+
+.CartRight-detail-container .list-product-item_img img {
+  max-width: 80px;
+  max-height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.CartRight-detail .exit {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: black;
+  font-size: 24px;
+  opacity: .5;
+  font-weight: 500;
+}
+
+.CartRight-detail .exit:hover {
+  opacity: 1;
+}
+
+.list-product-item_detail-title {
+  line-height: 20px;
+}
+
+.icon-exit {
+  background-image: url(../Images/remove-cart2.png);
+  width: 7px;
+  height: 7px;
+}
+
+.chaydi {
+  -webkit-animation: chaydi 1s  forwards;
+          animation: chaydi 1s  forwards;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+@-webkit-keyframes chaydi {
+  form {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes chaydi {
+  form {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=CartRight.css.map */

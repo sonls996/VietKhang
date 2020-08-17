@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+@media screen and (max-width: 992px) {
+  .container-menu {
+    display: none !important;
+  }
+}
+
+.before-home::before {
+  font-family: Linearicons-Free;
+  content: "\e801";
+  margin-right: 10px;
+}
+
+.before-address::before {
+  font-family: Linearicons-Free;
+  content: "\e800";
+  margin-right: 10px;
+}
+
+.before-thue::before {
+  font-family: Linearicons-Free;
+  content: "\e836";
+  margin-right: 10px;
+}
+
+.before-phone::before {
+  font-family: Linearicons-Free;
+  content: "\e831";
+  margin-right: 10px;
+}
+/*# sourceMappingURL=Banner.css.map */
