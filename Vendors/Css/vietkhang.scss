@@ -96,7 +96,7 @@ $do: #ee3333;
           // height: 60px;
           padding: 10px 20px;
           // background-color: $den;
-          top: calc(100% + 100px);
+          // top: 100%;
           visibility: hidden;
           right: 0;
           border: 1px solid #e5e5e5;
@@ -122,14 +122,14 @@ $do: #ee3333;
             }
           }
         }
+        .tg-search {
+          transition: 0.5s;
+          // top: calc(100%) !important;
+          visibility: visible;
+        }
       }
-      .pay_bar-wrap{
+      .pay_bar-wrap {
         display: none;
-      }
-      .pay-sea:hover .modal-search {
-        transition: 0.5s;
-        top: calc(100%) !important;
-        visibility: visible;
       }
     }
   }
@@ -363,6 +363,7 @@ $do: #ee3333;
       display: inline-block;
     }
     .ModalDetailProduct-detail-more_detail {
+      font-style: normal;
     }
     .ModalDetailProduct-detail-button {
       justify-content: space-between;
@@ -509,10 +510,27 @@ $do: #ee3333;
 
 @media screen and (max-width: 876px) {
   .pay_bar-wrap {
-   display: flex !important;
+    display: flex !important;
   }
-  .menu-right-top{
-    padding : 25px 20px !important;
+  .menu-right-top {
+    padding: 25px 20px !important;
+  }
+  .tg-search {
+    top: 70px;
+  }
+}
+@media screen and (max-witdh: 375px) {
+  .menu-right-top {
+    padding: 20px !important;
+    // .menu-content-item{
+    //   padding : 10px 20px !important ;
+    // }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tg-search {
+    top: 60px;
   }
 }
 

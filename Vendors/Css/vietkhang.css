@@ -106,7 +106,6 @@
   min-width: 400px;
   max-width: 500px;
   padding: 10px 20px;
-  top: calc(100% + 100px);
   visibility: hidden;
   right: 0;
   border: 1px solid #e5e5e5;
@@ -138,15 +137,14 @@
   padding-left: 10px;
 }
 
-.banner .container-pay .pay_bar-wrap {
-  display: none;
-}
-
-.banner .container-pay .pay-sea:hover .modal-search {
+.banner .container-pay .pay-circle .tg-search {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  top: calc(100%) !important;
   visibility: visible;
+}
+
+.banner .container-pay .pay_bar-wrap {
+  display: none;
 }
 
 .bg-trang {
@@ -336,6 +334,10 @@
   display: inline-block;
 }
 
+.ModalDetailProduct .ModalDetailProduct-detail .ModalDetailProduct-detail-more_detail {
+  font-style: normal;
+}
+
 .ModalDetailProduct .ModalDetailProduct-detail .ModalDetailProduct-detail-button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -514,6 +516,21 @@
   }
   .menu-right-top {
     padding: 25px 20px !important;
+  }
+  .tg-search {
+    top: 70px;
+  }
+}
+
+@media screen and (max-witdh: 375px) {
+  .menu-right-top {
+    padding: 20px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tg-search {
+    top: 60px;
   }
 }
 
