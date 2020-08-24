@@ -540,6 +540,12 @@
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .payy .col-xl-6.pr-20 {
+    padding-right: 0 !important;
+  }
+}
+
 @-webkit-keyframes zoomout {
   from {
     -webkit-transform: scale(0.5);

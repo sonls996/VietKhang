@@ -539,6 +539,11 @@ $do: #ee3333;
     height: 100%;
   }
 }
+@media screen and (max-width:1199px){
+  .payy .col-xl-6.pr-20 {
+    padding-right: 0 !important;
+  }
+}
 
 @-webkit-keyframes zoomout {
   from {
