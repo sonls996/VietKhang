@@ -1,11 +1,3 @@
-.ContactForm * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: "Open Sans";
-}
-
 .ContactForm .ContactFrom .container .contact-wrap {
   height: 100px;
 }
@@ -39,7 +31,6 @@
 .ContactForm form {
   border-radius: 5px;
   width: 100%;
-  margin: 5% auto;
   background-color: #ffffff;
   overflow: hidden;
   -webkit-box-shadow: 0 0px 10px 1px #ddd;
@@ -136,8 +127,6 @@
 }
 
 .ContactForm .leftcontact {
-  width: 49.5%;
-  float: left;
   border-right: 1px dotted #ccc;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

@@ -1,10 +1,4 @@
 .ContactForm {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans";
-  }
   .ContactFrom {
     .container {
       .contact-wrap {
@@ -42,7 +36,7 @@
     border-radius: 5px;
     // max-width: 700px;
     width: 100%;
-    margin: 5% auto;
+    // margin: 5% auto;
     background-color: #ffffff;
     overflow: hidden;
     box-shadow: 0 0px 10px 1px #ddd;
@@ -76,7 +70,7 @@
     padding: 0px 15px;
     outline: none;
   }
-  input#fonction{
+  input#fonction {
     line-height: 40px;
     background: none;
   }
@@ -138,8 +132,8 @@
   }
 
   .leftcontact {
-    width: 49.5%;
-    float: left;
+    // width: 49.5%;
+    // float: left;
     border-right: 1px dotted #ccc;
     box-sizing: border-box;
     padding: 0px 15px 0px 0px;

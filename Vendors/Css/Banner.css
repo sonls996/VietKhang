@@ -6,9 +6,27 @@
   font-family: "Open Sans";
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .container-menu {
     display: none !important;
+  }
+  .banner .container .row {
+    padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner .container .row {
+    padding: 10px !important;
+  }
+  .pay-sea {
+    display: none !important;
+  }
+  .pay_user {
+    display: none !important;
+  }
+  .logo-wrap {
+    height: 50px !important;
   }
 }
 

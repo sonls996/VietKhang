@@ -13,12 +13,14 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" />
     <link rel="stylesheet" href="./Vendors/Css/Bapcai.css">
     <link rel="stylesheet" href="./Vendors/Css/vietkhang.css">
-    <link rel="stylesheet" href="./Vendors/Css/Animation.css">
     <link rel="stylesheet" href="./Vendors/Css/Banner.css">
+    <link rel="stylesheet" href="./Vendors/Css/Animation.css">
+
     <link rel="stylesheet" href="./Vendors/Css/Filter.css">
     <link rel="stylesheet" href="./Vendors/Css/Footer.css">
     <link rel="stylesheet" href="./Vendors/Css/NotFound.css">
     <link rel="stylesheet" href="./Vendors/Css/Cart.css">
+    <link rel="icon" href="./Vendors/Images/favicon_io/favicon.ico">
     <title>Việt Khang</title>
 </head>
 
@@ -28,20 +30,20 @@
             <!-- Banner Start ------------------------------------------------------------------->
             <div id='banner' class="banner ">
                 <div class="container ">
-                    <div class="row jtfspb">
-                        <div class="logo-wrap "></div>
+                    <div class="row pt-10 pb-10 jtfspb">
+                        <a href="index.html" class="logo-wrap "></a>
                         <div class="container-menu dfgiua">
                             <div class="pl-10 pr-10  container-menu-item ttfu fs-15 fw-500">
-                                <Link to="/">Trang chủ</Link>
+                                <a href="index.html">Trang chủ</a>
                             </div>
                             <div class="pl-10 pr-10  container-menu-item ttfu fs-15 fw-500">
-                                <Link to="/product">Sản phẩm</Link>
+                                <a href="product.html">Sản phẩm</a>
                             </div>
                             <div class="pl-10 pr-10  container-menu-item ttfu fs-15 fw-500">
-                                <Link to="/company">Về công ty</Link>
+                                <a href="company.html">Về công ty</a>
                             </div>
                             <div class="pl-10 pr-10  container-menu-item ttfu fs-15 fw-500">
-                                <Link to="/contact">Liên hệ</Link>
+                                <a href="contact.html">Liên hệ</a>
                             </div>
                         </div>
                         <div class="container-pay dfgiua">
@@ -49,16 +51,18 @@
                                 <div class="container-pay-icon pay_search"> </div>
                                 <div class="modal-search df z-20 ">
                                     <div class="btn_input">
-                                        <input type="text" placeholder="Find anything"></input>
+                                        <input type="text" placeholder="Bạn đang tìm kiếm điều gì"></input>
                                     </div>
-                                    <div class="btn_search">Search</div>
+                                    <div class="btn_search">Tìm kiếm</div>
                                 </div>
                             </div>
                             <div title="User Account" class='pay-circle '>
                                 <div class="container-pay-icon pay_user"></div>
                             </div>
                             <div title="Your cart" class='pay-circle'>
-                                <div class="container-pay-icon pay_cart"></div>
+                                <a href="Cart.html" class="container-pay-icon pay_cart">
+                                    <div class="quanitlyCart">1</div>
+                                </a>
                             </div>
                             <div title="Select " class='pay-circle '>
                                 <div class="container-pay-icon pay_bar "></div>
@@ -76,10 +80,10 @@
                 <div class="list-slide">
                     <div class="list-slide-wrap">
                         <div class="slide kichhoat">
-                            <div class="anh" style=" background-image: url(./Vendors/Images/slide9.jpg);"></div>
+                            <div class="anh" style=" background-image: url(./Vendors/Images/slide3.jpg);"></div>
                         </div>
                         <div class="slide">
-                            <div class="anh" style=" background-image: url(./Vendors/Images/slide8.jpg);"></div>
+                            <div class="anh" style=" background-image: url(./Vendors/Images/slide1.jpg);"></div>
                         </div>
                         <div class="slide">
                             <div class="anh" style=" background-image: url(./Vendors/Images/slide7.jpg);"></div>
@@ -104,469 +108,661 @@
                             <li class="dot" />
                         </ul>
                     </div>
+
                     <div class="button-next">
                         <div class="next"></div>
                         <div class="pre"></div>
                     </div>
                 </div>
+        </div>
+        </section>
+        <!-- Slider End---------------------------------------------------------------->
 
-            </section>
-            <!-- Slider End---------------------------------------------------------------->
 
 
-            <!-- Product Start---------------------------------------------------------------->
-            <div class="container">
-                <!-- Filter Start---------------------------------------------------------------->
-                <div class="DetailProduct">
-                    <div class="container pa-20">
+        <!-- Product Start---------------------------------------------------------------->
+        <div class="container">
 
-                        <div class="ridirect bd-b-1 df">
-                            <a class="fs-14" href="/"> Trang chủ</a>
-                            <p class="pl-5 pr-5"> &rarr;</p>
-                            <span class="fs-14">Cửa hàng </span>
-                        </div>
-                        <div class="row jtfspb">
-                            <div class="product-display df">
-                                <div class="product-display_grid  df">
-                                    <div class="display-icon dfgiua">
-                                        <i class="fas fa-th-large"></i>
+            <div class="product-related">
+                <div class="product-related_title talc pt-30 pb-50 ttfu"> <a href="/">Sản phẩm nổi bật</a></div>
+                <div class="product-related_list-product df">
+                    <div class="related-list-item col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="list-item-wrap">
+                            <div class="related-list-item_photo">
+                                <a href="DetailProduct.html"><img alt="anh"
+                                        src='./Vendors/Images/product1.jpg'></img></a>
+
+                                <div class="product-action dfgiua">
+                                    <div class="product-circle">
+                                        <div title="Thêm vào giỏ hàng" class="product-action_icon action_add"></div>
                                     </div>
-                                    <div class="display-txt ttfu dfgiua fs-13">grid</div>
-                                </div>
-                                <div class="product-display_list bd-1 df">
-                                    <div class="display-icon dfgiua">
-                                        <i class="fas fa-bars"></i>
+                                    <div class="product-circle">
+                                        <div title="Yêu thích" onclick="confirm('da mua thanh cong')"   class="product-action_icon action_wish"></div>
                                     </div>
-                                    <div class="display-txt ttfu dfgiua fs-13">list</div>
+                                    <div class="product-circle">
+                                        <div title="Xem nhanh" class="product-action_icon action_view"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="product-filter bd-1">
-                                <select class="ttfu pl-20" name="" id="" defauvalue="Lựa chọn">
-                                    <option class="ttfu" value="1">Default sorting </option>
-                                    <option value="1">2</option>
-                                    <option value="1">3</option>
-                                    <option value="1">4</option>
-                                </select>
-                            </div>
-                            <div class="product-phantrang">
-                                <ul class="dfgiua">
-                                    <li class="bd-r-1 phantrang-active">1</li>
-                                    <li class="bd-r-1">2</li>
-                                    <li class="bd-r-1">3</li>
-                                    <li class="bd-r-1">4</li>
-                                    <li class="bd-r-1">+</li>
-                                </ul>
+                            <div class="related-item_title">Bàn họp cao cấp</div>
+                            <div class="related-item_price df pl20 pr-20 jtfspb ">
+                                <div class="pl-20">500000</div>
+                                <div class="pr-20">Mua</div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Filter End---------------------------------------------------------------->
-                <div class="row">
-                    <div class=" product-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="product-item-wrap-image">
-                            <img alt="Có thể là ảnh" src='./Vendors/Images/product1.jpg' />
-                            <div class="product-item-menu df">
-                                <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
-                                <div title="Add to cart" class="product-item-menu-icon"><i
-                                        class="fas fa-shopping-bag"></i></div>
-                                <div title="Quick view" class="product-item-menu-icon"><i
-                                        class="fas fa-external-link-alt"></i></div>
-                            </div>
-                        </div>
-                        <div class="product-item-fulldetail pd20">
-                            <div class="  top-detail  df jtfspb">
-                                <div class=' top-detail-title'>Đơn vị gia công</div>
-                                <div class=' top-detail-rate df '>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="product-item-title">
-                                <a class="tdcrtn" href="/">Title test </a>
-                            </div>
-                            <div class="product-item-price df jtfspb">
-                                <div class="product-item-price_old">200000</div>
-                                <div class="product-item-price_new">By now</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 1 item-->
-                    <div class=" product-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="product-item-wrap-image">
-                            <img alt="Có thể là ảnh" src='./Vendors/Images/product2.jpg' />
-                            <div class="product-item-menu df">
-                                <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
-                                <div title="Add to cart" class="product-item-menu-icon"><i
-                                        class="fas fa-shopping-bag"></i></div>
-                                <div title="Quick view" class="product-item-menu-icon"><i
-                                        class="fas fa-external-link-alt"></i></div>
-                            </div>
-                        </div>
-                        <div class="product-item-fulldetail pd20">
-                            <div class="  top-detail  df jtfspb">
-                                <div class=' top-detail-title'>Đơn vị gia công</div>
-                                <div class=' top-detail-rate df '>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="product-item-title">
-                                <a class="tdcrtn" href="/">Title test </a>
-                            </div>
-                            <div class="product-item-price df jtfspb">
-                                <div class="product-item-price_old">200000</div>
-                                <div class="product-item-price_new">By now</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 1 item-->
-                    <div class=" product-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="product-item-wrap-image">
-                            <img alt="Có thể là ảnh" src='./Vendors/Images/product3.jpg' />
-                            <div class="product-item-menu df">
-                                <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
-                                <div title="Add to cart" class="product-item-menu-icon"><i
-                                        class="fas fa-shopping-bag"></i></div>
-                                <div title="Quick view" class="product-item-menu-icon"><i
-                                        class="fas fa-external-link-alt"></i></div>
-                            </div>
-                        </div>
-                        <div class="product-item-fulldetail pd20">
-                            <div class="  top-detail  df jtfspb">
-                                <div class=' top-detail-title'>Đơn vị gia công</div>
-                                <div class=' top-detail-rate df '>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="product-item-title">
-                                <a class="tdcrtn" href="/">Title test </a>
-                            </div>
-                            <div class="product-item-price df jtfspb">
-                                <div class="product-item-price_old">200000</div>
-                                <div class="product-item-price_new">By now</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 1 item-->
-                    <div class=" product-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="product-item-wrap-image">
-                            <img alt="Có thể là ảnh" src='./Vendors/Images/product4.jpg' />
-                            <div class="product-item-menu df">
-                                <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
-                                <div title="Add to cart" class="product-item-menu-icon"><i
-                                        class="fas fa-shopping-bag"></i></div>
-                                <div title="Quick view" class="product-item-menu-icon"><i
-                                        class="fas fa-external-link-alt"></i></div>
-                            </div>
-                        </div>
-                        <div class="product-item-fulldetail pd20">
-                            <div class="  top-detail  df jtfspb">
-                                <div class=' top-detail-title'>Đơn vị gia công</div>
-                                <div class=' top-detail-rate df '>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="product-item-title">
-                                <a class="tdcrtn" href="/">Title test </a>
-                            </div>
-                            <div class="product-item-price df jtfspb">
-                                <div class="product-item-price_old">200000</div>
-                                <div class="product-item-price_new">By now</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 1 item-->
 
-                    <div class=" product-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="product-item-wrap-image">
-                            <img alt="Có thể là ảnh" src='./Vendors/Images/product5.jpg' />
-                            <div class="product-item-menu df">
-                                <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
-                                <div title="Add to cart" class="product-item-menu-icon"><i
-                                        class="fas fa-shopping-bag"></i></div>
-                                <div title="Quick view" class="product-item-menu-icon"><i
-                                        class="fas fa-external-link-alt"></i></div>
-                            </div>
-                        </div>
-                        <div class="product-item-fulldetail pd20">
-                            <div class="  top-detail  df jtfspb">
-                                <div class=' top-detail-title'>Đơn vị gia công</div>
-                                <div class=' top-detail-rate df '>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                    <div class="related-list-item col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="list-item-wrap">
+                            <div class="related-list-item_photo">
+                                <a href="DetailProduct.html"><img alt="anh"
+                                        src='./Vendors/Images/product2.jpg'></img></a>
+
+                                <div class="product-action dfgiua">
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_add"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_wish"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_view"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="product-item-title">
-                                <a class="tdcrtn" href="/">Title test </a>
-                            </div>
-                            <div class="product-item-price df jtfspb">
-                                <div class="product-item-price_old">200000</div>
-                                <div class="product-item-price_new">By now</div>
-                            </div>
+                            <div class="related-item_title">Bàn họp cao cấp</div>
+                            <div class="related-item_price">500000</div>
                         </div>
                     </div>
-                    <!-- 1 item-->
-                    <div class=" product-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="product-item-wrap-image">
-                            <img alt="Có thể là ảnh" src='./Vendors/Images/product6.jpg' />
-                            <div class="product-item-menu df">
-                                <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
-                                <div title="Add to cart" class="product-item-menu-icon"><i
-                                        class="fas fa-shopping-bag"></i></div>
-                                <div title="Quick view" class="product-item-menu-icon"><i
-                                        class="fas fa-external-link-alt"></i></div>
-                            </div>
-                        </div>
-                        <div class="product-item-fulldetail pd20">
-                            <div class="  top-detail  df jtfspb">
-                                <div class=' top-detail-title'>Đơn vị gia công</div>
-                                <div class=' top-detail-rate df '>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+
+                    <div class="related-list-item col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="list-item-wrap">
+                            <div class="related-list-item_photo">
+                                <a href="DetailProduct.html"><img alt="anh"
+                                        src='./Vendors/Images/product3.jpg'></img></a>
+
+                                <div class="product-action dfgiua">
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_add"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_wish"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_view"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="product-item-title">
-                                <a class="tdcrtn" href="/">Title test </a>
-                            </div>
-                            <div class="product-item-price df jtfspb">
-                                <div class="product-item-price_old">200000</div>
-                                <div class="product-item-price_new">By now</div>
-                            </div>
+                            <div class="related-item_title">Bàn họp cao cấp</div>
+                            <div class="related-item_price">500000</div>
                         </div>
                     </div>
-                    <!-- 1 item-->
-                    <div class=" product-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="product-item-wrap-image">
-                            <img alt="Có thể là ảnh" src='./Vendors/Images/product7.jpg' />
-                            <div class="product-item-menu df">
-                                <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
-                                <div title="Add to cart" class="product-item-menu-icon"><i
-                                        class="fas fa-shopping-bag"></i></div>
-                                <div title="Quick view" class="product-item-menu-icon"><i
-                                        class="fas fa-external-link-alt"></i></div>
-                            </div>
-                        </div>
-                        <div class="product-item-fulldetail pd20">
-                            <div class="  top-detail  df jtfspb">
-                                <div class=' top-detail-title'>Đơn vị gia công</div>
-                                <div class=' top-detail-rate df '>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+
+                    <div class="related-list-item col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="list-item-wrap">
+                            <div class="related-list-item_photo">
+                                <a href="DetailProduct.html"><img alt="anh"
+                                        src='./Vendors/Images/product4.jpg'></img></a>
+
+                                <div class="product-action dfgiua">
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_add"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_wish"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_view"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="product-item-title">
-                                <a class="tdcrtn" href="/">Title test </a>
-                            </div>
-                            <div class="product-item-price df jtfspb">
-                                <div class="product-item-price_old">200000</div>
-                                <div class="product-item-price_new">By now</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 1 item-->
-                    <div class=" product-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="product-item-wrap-image">
-                            <img alt="Có thể là ảnh" src='./Vendors/Images/product8.jpg' />
-                            <div class="product-item-menu df">
-                                <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
-                                <div title="Add to cart" class="product-item-menu-icon"><i
-                                        class="fas fa-shopping-bag"></i></div>
-                                <div title="Quick view" class="product-item-menu-icon"><i
-                                        class="fas fa-external-link-alt"></i></div>
-                            </div>
-                        </div>
-                        <div class="product-item-fulldetail pd20">
-                            <div class="  top-detail  df jtfspb">
-                                <div class=' top-detail-title'>Đơn vị gia công</div>
-                                <div class=' top-detail-rate df '>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="product-item-title">
-                                <a class="tdcrtn" href="/">Title test </a>
-                            </div>
-                            <div class="product-item-price df jtfspb">
-                                <div class="product-item-price_old">200000</div>
-                                <div class="product-item-price_new">By now</div>
-                            </div>
-                        </div>
-                    </div>
-                     <!-- 1 item-->
-                     <div class=" product-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="product-item-wrap-image">
-                            <img alt="Có thể là ảnh" src='./Vendors/Images/product9.jpg' />
-                            <div class="product-item-menu df">
-                                <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
-                                <div title="Add to cart" class="product-item-menu-icon"><i
-                                        class="fas fa-shopping-bag"></i></div>
-                                <div title="Quick view" class="product-item-menu-icon"><i
-                                        class="fas fa-external-link-alt"></i></div>
-                            </div>
-                        </div>
-                        <div class="product-item-fulldetail pd20">
-                            <div class="  top-detail  df jtfspb">
-                                <div class=' top-detail-title'>Đơn vị gia công</div>
-                                <div class=' top-detail-rate df '>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="product-item-title">
-                                <a class="tdcrtn" href="/">Title test </a>
-                            </div>
-                            <div class="product-item-price df jtfspb">
-                                <div class="product-item-price_old">200000</div>
-                                <div class="product-item-price_new">By now</div>
-                            </div>
+                            <div class="related-item_title">Bàn họp cao cấp</div>
+                            <div class="related-item_price">500000</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Product End---------------------------------------------------------------->
+            <!-- Filter Start---------------------------------------------------------------->
+            <div class="DetailProduct">
+                <div class="container pa-20">
 
+                    <div class="ridirect bd-b-1 df">
+                        <a class="fs-14" href="/"> Trang chủ</a>
+                        <p class="pl-5 pr-5"> &rarr;</p>
+                        <span class="fs-14">Cửa hàng </span>
+                    </div>
+                    <div class="row jtfspb">
+                        <div class="product-display mb-10 df">
+                            <div class="product-display_grid  df">
+                                <div class="display-icon dfgiua">
+                                    <i class="fas fa-th-large"></i>
+                                </div>
+                                <div class="display-txt ttfu dfgiua fs-13">grid</div>
+                            </div>
+                            <div class="product-display_list bd-1 df">
+                                <div class="display-icon dfgiua">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                                <div class="display-txt ttfu dfgiua fs-13">list</div>
+                            </div>
+                        </div>
+                        <div class="product-filter bd-1">
+                            <select class="ttfu pl-20" name="" id="" defauvalue="Lựa chọn">
+                                <option class="ttfu" value="1">Default sorting </option>
+                                <option value="1">2</option>
+                                <option value="1">3</option>
+                                <option value="1">4</option>
+                            </select>
+                        </div>
+                        <!-- <div class="product-phantrang">
+                            <ul class="dfgiua">
+                                <li class="bd-r-1 phantrang-active">1</li>
+                                <li class="bd-r-1">2</li>
+                                <li class="bd-r-1">3</li>
+                                <li class="bd-r-1">4</li>
+                                <li class="bd-r-1">+</li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- Filter End---------------------------------------------------------------->
+            <div class="row">
+                <div class=" product-item col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="product-item-wrap-image">
+                        <img alt="Có thể là ảnh" src='./Vendors/Images/product1.jpg' />
+                        <div class="product-item-menu df">
+                            <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
+                            <div title="Add to cart" class="product-item-menu-icon"><i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <div title="Quick view" class="product-item-menu-icon"><i
+                                    class="fas fa-external-link-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-item-fulldetail pd20">
+                        <div class="  top-detail  df jtfspb">
+                            <div class=' top-detail-title'>Đơn vị gia công</div>
+                            <div class=' top-detail-rate df '>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <a class="tdcrtn" href="/">Title test </a>
+                        </div>
+                        <div class="product-item-price df jtfspb">
+                            <div class="product-item-price_old">200000</div>
+                            <div class="product-item-price_new">Mua ngay</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 item-->
+                <div class=" product-item col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="product-item-wrap-image">
+                        <img alt="Có thể là ảnh" src='./Vendors/Images/product2.jpg' />
+                        <div class="product-item-menu df">
+                            <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
+                            <div title="Add to cart" class="product-item-menu-icon"><i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <div title="Quick view" class="product-item-menu-icon"><i
+                                    class="fas fa-external-link-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-item-fulldetail pd20">
+                        <div class="  top-detail  df jtfspb">
+                            <div class=' top-detail-title'>Đơn vị gia công</div>
+                            <div class=' top-detail-rate df '>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <a class="tdcrtn" href="/">Title test </a>
+                        </div>
+                        <div class="product-item-price df jtfspb">
+                            <div class="product-item-price_old">200000</div>
+                            <div class="product-item-price_new">Mua ngay</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 item-->
+                <div class=" product-item col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="product-item-wrap-image">
+                        <img alt="Có thể là ảnh" src='./Vendors/Images/product3.jpg' />
+                        <div class="product-item-menu df">
+                            <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
+                            <div title="Add to cart" class="product-item-menu-icon"><i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <div title="Quick view" class="product-item-menu-icon"><i
+                                    class="fas fa-external-link-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-item-fulldetail pd20">
+                        <div class="  top-detail  df jtfspb">
+                            <div class=' top-detail-title'>Đơn vị gia công</div>
+                            <div class=' top-detail-rate df '>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <a class="tdcrtn" href="/">Title test </a>
+                        </div>
+                        <div class="product-item-price df jtfspb">
+                            <div class="product-item-price_old">200000</div>
+                            <div class="product-item-price_new">Mua ngay</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 item-->
+                <div class=" product-item col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="product-item-wrap-image">
+                        <img alt="Có thể là ảnh" src='./Vendors/Images/product4.jpg' />
+                        <div class="product-item-menu df">
+                            <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
+                            <div title="Add to cart" class="product-item-menu-icon"><i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <div title="Quick view" class="product-item-menu-icon"><i
+                                    class="fas fa-external-link-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-item-fulldetail pd20">
+                        <div class="  top-detail  df jtfspb">
+                            <div class=' top-detail-title'>Đơn vị gia công</div>
+                            <div class=' top-detail-rate df '>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <a class="tdcrtn" href="/">Title test </a>
+                        </div>
+                        <div class="product-item-price df jtfspb">
+                            <div class="product-item-price_old">200000</div>
+                            <div class="product-item-price_new">Mua ngay</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 item-->
 
-            <!-- Slider Start---------------------------------------------------------------->
-            <!-- Slider End---------------------------------------------------------------->
-            <!-- Slider Start---------------------------------------------------------------->
-            <!-- Slider End---------------------------------------------------------------->
-            <!-- Slider Start---------------------------------------------------------------->
-            <!-- Slider End---------------------------------------------------------------->
-            <!-- Slider Start---------------------------------------------------------------->
-            <!-- Slider End---------------------------------------------------------------->
+                <div class=" product-item col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="product-item-wrap-image">
+                        <img alt="Có thể là ảnh" src='./Vendors/Images/product5.jpg' />
+                        <div class="product-item-menu df">
+                            <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
+                            <div title="Add to cart" class="product-item-menu-icon"><i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <div title="Quick view" class="product-item-menu-icon"><i
+                                    class="fas fa-external-link-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-item-fulldetail pd20">
+                        <div class="  top-detail  df jtfspb">
+                            <div class=' top-detail-title'>Đơn vị gia công</div>
+                            <div class=' top-detail-rate df '>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <a class="tdcrtn" href="/">Title test </a>
+                        </div>
+                        <div class="product-item-price df jtfspb">
+                            <div class="product-item-price_old">200000</div>
+                            <div class="product-item-price_new">Mua ngay</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 item-->
+                <div class=" product-item col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="product-item-wrap-image">
+                        <img alt="Có thể là ảnh" src='./Vendors/Images/product6.jpg' />
+                        <div class="product-item-menu df">
+                            <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
+                            <div title="Add to cart" class="product-item-menu-icon"><i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <div title="Quick view" class="product-item-menu-icon"><i
+                                    class="fas fa-external-link-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-item-fulldetail pd20">
+                        <div class="  top-detail  df jtfspb">
+                            <div class=' top-detail-title'>Đơn vị gia công</div>
+                            <div class=' top-detail-rate df '>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <a class="tdcrtn" href="/">Title test </a>
+                        </div>
+                        <div class="product-item-price df jtfspb">
+                            <div class="product-item-price_old">200000</div>
+                            <div class="product-item-price_new">Mua ngay</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 item-->
+                <div class=" product-item col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="product-item-wrap-image">
+                        <img alt="Có thể là ảnh" src='./Vendors/Images/product7.jpg' />
+                        <div class="product-item-menu df">
+                            <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
+                            <div title="Add to cart" class="product-item-menu-icon"><i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <div title="Quick view" class="product-item-menu-icon"><i
+                                    class="fas fa-external-link-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-item-fulldetail pd20">
+                        <div class="  top-detail  df jtfspb">
+                            <div class=' top-detail-title'>Đơn vị gia công</div>
+                            <div class=' top-detail-rate df '>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <a class="tdcrtn" href="/">Title test </a>
+                        </div>
+                        <div class="product-item-price df jtfspb">
+                            <div class="product-item-price_old">200000</div>
+                            <div class="product-item-price_new">Mua ngay</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 item-->
+                <div class=" product-item col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="product-item-wrap-image">
+                        <img alt="Có thể là ảnh" src='./Vendors/Images/product8.jpg' />
+                        <div class="product-item-menu df">
+                            <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
+                            <div title="Add to cart" class="product-item-menu-icon"><i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <div title="Quick view" class="product-item-menu-icon"><i
+                                    class="fas fa-external-link-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-item-fulldetail pd20">
+                        <div class="  top-detail  df jtfspb">
+                            <div class=' top-detail-title'>Đơn vị gia công</div>
+                            <div class=' top-detail-rate df '>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <a class="tdcrtn" href="/">Title test </a>
+                        </div>
+                        <div class="product-item-price df jtfspb">
+                            <div class="product-item-price_old">200000</div>
+                            <div class="product-item-price_new">Mua ngay</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 item-->
+                <div class=" product-item col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="product-item-wrap-image">
+                        <img alt="Có thể là ảnh" src='./Vendors/Images/product9.jpg' />
+                        <div class="product-item-menu df">
+                            <div title="Love" class="product-item-menu-icon"><i class="far fa-heart"></i></div>
+                            <div title="Add to cart" class="product-item-menu-icon"><i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <div title="Quick view" class="product-item-menu-icon"><i
+                                    class="fas fa-external-link-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-item-fulldetail pd20">
+                        <div class="  top-detail  df jtfspb">
+                            <div class=' top-detail-title'>Đơn vị gia công</div>
+                            <div class=' top-detail-rate df '>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <a class="tdcrtn" href="/">Title test </a>
+                        </div>
+                        <div class="product-item-price df jtfspb">
+                            <div class="product-item-price_old">200000</div>
+                            <div class="product-item-price_new">Mua ngay</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="product-related">
+                <div class="product-related_title talc pt-30 pb-50 ttfu"> <a href="/">Thiết bị y tế</a></div>
+                <div class="product-related_list-product df">
+                    <div class="related-list-item col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="list-item-wrap">
+                            <div class="related-list-item_photo">
+                                <a href="DetailProduct.html"><img alt="anh"
+                                        src='./Vendors/Images/product5.jpg'></img></a>
 
-            <!-- Footer Start---------------------------------------------------------------->
-            <footer class="new_footer_area bg_color">
-                <div class="new_footer_top">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-3 pa-20 col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s"
-                                    style=" visibility: 'visible' animationDelay: '0.2s' animationName: 'fadeInLeft' ">
-                                    <h3 class="f-title f_600 t_color f_size_18">Đăng ký nhận tin</h3>
-                                    <p class="fs-15">Đừng bỏ lỡ bất kì thông tin mới cập nhật nào của chúng tôi!</p>
-                                    <div class="form-sub">
-                                        <form action="#" class="f_subscribe_two mailchimp dfgiua" method=""
-                                            _lpchecked={1}>
-                                            <input type="text" name="EMAIL" class="form-control memail"
-                                                placeholder="Email" />
-                                            <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
-                                            <!-- {/*
-                                            <p class="mchimp-errmessage" style={{ display: 'none' }} /> */}
-                                            {/*
-                                            <p class="mchimp-sucmessage" style={{ display: 'none' }} /> */} -->
-                                        </form>
+                                <div class="product-action dfgiua">
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_add"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_wish"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_view"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-2 pa-20 col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; "
-                                    style="visibility: 'visible'; animation-delay: '0.4s'; animation-name: 'fadeInLeft'" >
-                                    <h3 class="f-title f_600 t_color f_size_18">Download</h3>
-                                    <ul class="list-unstyled f_list">
-                                        <li><a class="tdcrtn " href="/">CompanyCompany</a></li>
-                                        <li><a class="tdcrtn " href="/">Android App Android App</a></li>
-                                        <li><a class="tdcrtn " href="/">Ios App Ios AppIos App</a></li>
-                                        <li><a class="tdcrtn " href="/">Desktop Ios AppIos App</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xl-2 pa-20 col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
-                                style="visibility: 'visible'; animation-delay: '0.6s'; animation-name: 'fadeInLeft'" >
-                                    <h3 class="f-title f_600 t_color f_size_18">Help</h3>
-                                    <ul class="list-unstyled f_list">
-                                        <li><a class="tdcrtn " href="/">FAQ</a></li>
-                                        <li><a class="tdcrtn " href="/">Term &amp; conditions</a></li>
-                                        <li><a class="tdcrtn " href="/">Reporting</a></li>
-                                        <li><a class="tdcrtn " href="/">Documentation</a></li>
-                                        <li><a class="tdcrtn " href="/">Support Policy</a></li>
-                                        <li><a class="tdcrtn " href="/">Privacy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-5 pa-20 col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
-                                    style={{ visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInLeft' }}>
-                                    <h3 class="f-title f_600 t_color f_size_18">Về chúng tôi</h3>
-                                    <ul class="list-unstyled f_list">
-                                        <li class="pa-5"><a class="tdcrtn " href="/">
-                                                <div class="before-home ">Công ty TNHH Dược và Thiết bị y tế Việt
-                                                    Khang</div>
-                                            </a></li>
-                                        <li class="pa-5"><a class="tdcrtn " href="/">
-                                                <div class="before-address">Địa chỉ: số 18 ngõ 107 nguyễn chí thanh
-                                                    láng thượng đống đa hà nội</div>
-                                            </a></li>
-                                        <li class="pa-5"><a class="tdcrtn " href="/">
-                                                <div class="before-thue">Mã số thuế 0106150686</div>
-                                            </a></li>
-                                        <li class="pa-5"><a class="tdcrtn " href="/">
-                                                <div class="before-phone">Hotline: 094-482-0791 / 0944642868</div>
-                                            </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
+                            <div class="related-item_title">Bàn họp cao cấp</div>
+                            <div class="related-item_price">500000</div>
                         </div>
                     </div>
 
+                    <div class="related-list-item col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="list-item-wrap">
+                            <div class="related-list-item_photo">
+                                <a href="DetailProduct.html"><img alt="anh"
+                                        src='./Vendors/Images/product6.jpg'></img></a>
 
-
-
-                    <div class="footer_bg">
-                        <div class="footer_bg_one"></div>
-                        <div class="footer_bg_two"></div>
+                                <div class="product-action dfgiua">
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_add"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_wish"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_view"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="related-item_title">Bàn họp cao cấp</div>
+                            <div class="related-item_price">500000</div>
+                        </div>
                     </div>
-                </div>
-                <div class="footer_bottom">
-                    <div class="container">
-                        <div class="row talc dfgiua">
-                            <div class="">
-                                <p class="mb-0 f_400">© le hong son Inc.. 2020 All rights reserved.</p>
+
+                    <div class="related-list-item col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="list-item-wrap">
+                            <div class="related-list-item_photo">
+                                <a href="DetailProduct.html"><img alt="anh"
+                                        src='./Vendors/Images/product7.jpg'></img></a>
+
+                                <div class="product-action dfgiua">
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_add"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_wish"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_view"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="">
-                                <p>Made with <i class="icon_heart" /> in <a href="#">Bắp Cải</a></p>
+                            <div class="related-item_title">Bàn họp cao cấp</div>
+                            <div class="related-item_price">500000</div>
+                        </div>
+                    </div>
+
+                    <div class="related-list-item col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                        <div class="list-item-wrap">
+                            <div class="related-list-item_photo">
+                                <a href="DetailProduct.html"><img alt="anh"
+                                        src='./Vendors/Images/product8.jpg'></img></a>
+
+                                <div class="product-action dfgiua">
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_add"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_wish"></div>
+                                    </div>
+                                    <div class="product-circle">
+                                        <div class="product-action_icon action_view"></div>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="related-item_title">Bàn họp cao cấp</div>
+                            <div class="related-item_price">500000</div>
                         </div>
                     </div>
                 </div>
-            </footer>
-            <!-- Footer End---------------------------------------------------------------->
+            </div>
+
         </div>
+        <!-- Product End---------------------------------------------------------------->
+
+        <div style="border: 1px solid #f3f3f3;" class="container pl-20 pr-20 mt-30"></div>
+        <!-- Footer Start---------------------------------------------------------------->
+        <footer class="new_footer_area bg_color">
+            <div class="new_footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 pa-20 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                            <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s"
+                                style=" visibility: 'visible'; animation-delay: '0.2s'; animation-name: 'fadeInLeft' ">
+                                <h3 class="f-title f_600 t_color f_size_18">Đăng ký nhận tin</h3>
+                                <p class="fs-15">Đừng bỏ lỡ bất kì thông tin mới cập nhật nào của chúng tôi!</p>
+                                <div class="form-sub">
+                                    <form action="#" class="f_subscribe_two mailchimp dfgiua" method="" _lpchecked={1}>
+                                        <input type="text" name="EMAIL" class="form-control memail"
+                                            placeholder="Email" />
+                                        <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                                        <!-- {/*
+                                            <p class="mchimp-errmessage" style={{ display: 'none' }} /> */}
+                                            {/*
+                                            <p class="mchimp-sucmessage" style={{ display: 'none' }} /> */} -->
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 pa-20 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
+                                style="visibility: visible; "
+                                style="visibility: 'visible'; animation-delay: '0.4s'; animation-name: 'fadeInLeft'">
+                                <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+                                <ul class="list-unstyled f_list">
+                                    <li><a class="tdcrtn " href="/">Company</a></li>
+                                    <li><a class="tdcrtn " href="/">Android </a></li>
+                                    <li><a class="tdcrtn " href="/">Ios </a></li>
+                                    <li><a class="tdcrtn " href="/">Desktop </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 pa-20 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
+                                style="visibility: 'visible'; animation-delay: '0.6s'; animation-name: 'fadeInLeft'">
+                                <h3 class="f-title f_600 t_color f_size_18 ">Help</h3>
+                                <ul class="list-unstyled f_list">
+                                    <li><a class="tdcrtn " href="/">Câu hỏi thường gặp</a></li>
+                                    <li><a class="tdcrtn " href="/">Điều kiện &amp; Điều khoản</a></li>
+                                    <li><a class="tdcrtn " href="/">Báo cáo</a></li>
+                                    <li><a class="tdcrtn " href="/">Tài liệu</a></li>
+                                    <li><a class="tdcrtn " href="/"> Chính sách hỗ trợ</a></li>
+                                    <li><a class="tdcrtn " href="/">Bảo mật</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-5 pa-20 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
+                                style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                                <h3 class="f-title f_600 t_color f_size_18">Về chúng tôi</h3>
+                                <ul class="list-unstyled f_list">
+                                    <li class="pa-5"><a class="tdcrtn " href="/">
+                                            <div class="before-home ">Công ty TNHH Dược và Thiết bị y tế Việt
+                                                Khang</div>
+                                        </a></li>
+                                    <li class="pa-5"><a class="tdcrtn " href="/">
+                                            <div class="before-address">18 Ngõ 107 Nguyễn Chí Thanh Láng Thượng Đống Đa
+                                                Hà Nội</div>
+                                        </a></li>
+                                    <li class="pa-5"><a class="tdcrtn " href="/">
+                                            <div class="before-thue">Mã số thuế 0106150686</div>
+                                        </a></li>
+                                    <li class="pa-5"><a class="tdcrtn " href="/">
+                                            <div class="before-phone"> 094-482-0791 - 0944642868</div>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="footer_bg">
+                    <div class="footer_bg_one"></div>
+                    <div class="footer_bg_two"></div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="row talc dfgiua">
+                        <div class="">
+                            <p class="mb-0 f_400">© le hong son Inc.. 2020 All rights reserved.</p>
+                        </div>
+                        <div class="">
+                            <p>Made with <i class="icon_heart" /> in <a href="#">Bắp Cải</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Footer End---------------------------------------------------------------->
     </div>
-    <script src="./Animation.js"></script>
+    </div>
+    <script src="./Vendors/js/Animation.js"></script>
     <!-- <script src="./Product.js"></script> -->
 </body>
 
