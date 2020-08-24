@@ -123,6 +123,9 @@ $do: #ee3333;
           }
         }
       }
+      .pay_bar-wrap{
+        display: none;
+      }
       .pay-sea:hover .modal-search {
         transition: 0.5s;
         top: calc(100%) !important;
@@ -320,6 +323,7 @@ $do: #ee3333;
 
   .ModalDetailProduct-detail {
     .ModalDetailProduct-detail-title {
+      font-style: normal;
     }
     .ModalDetailProduct-detail-rate {
       &-star {
@@ -502,6 +506,16 @@ $do: #ee3333;
     display: none !important;
   }
 }
+
+@media screen and (max-width: 876px) {
+  .pay_bar-wrap {
+   display: flex !important;
+  }
+  .menu-right-top{
+    padding : 25px 20px !important;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .App2 {
     height: 100%;
@@ -680,4 +694,65 @@ body {
     //    }
     // }
   }
+}
+
+.menu-right {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  font-style: normal;
+  transition: 1s;
+  background-color: #ffffff;
+  box-shadow: 0 0 1px 0 #ddd;
+  &-top {
+    background-color: #333333;
+    justify-content: space-between;
+    .top-title {
+      text-transform: uppercase;
+      font-style: 14px;
+      color: #ffffff;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    .top-title::before {
+      font-family: Linearicons-Free;
+      content: "\e871";
+      margin-right: 10px;
+      font-size: 18px;
+    }
+    .top-icon {
+      color: #fff;
+      cursor: pointer;
+    }
+    .top-icon:after {
+      font-family: Linearicons-Free;
+      content: "\e870";
+    }
+  }
+  &-menu {
+    .memu-search {
+      padding: 20px 0;
+      .kk-search {
+        height: 30px;
+        input {
+          background: none;
+          outline: none;
+          border: none;
+        }
+      }
+      .kk-icon::after {
+        font-family: Linearicons-Free;
+        content: "\e86f";
+      }
+    }
+  }
+}
+
+.diquaphai {
+  right: -100%;
+}
+.diquatrai {
+  right: 0;
 }

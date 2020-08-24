@@ -138,6 +138,10 @@
   padding-left: 10px;
 }
 
+.banner .container-pay .pay_bar-wrap {
+  display: none;
+}
+
 .banner .container-pay .pay-sea:hover .modal-search {
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -284,6 +288,10 @@
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.ModalDetailProduct .ModalDetailProduct-detail .ModalDetailProduct-detail-title {
+  font-style: normal;
 }
 
 .ModalDetailProduct .ModalDetailProduct-detail .ModalDetailProduct-detail-rate-star i:not(:last-child) {
@@ -498,6 +506,17 @@
   }
 }
 
+@media screen and (max-width: 876px) {
+  .pay_bar-wrap {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .menu-right-top {
+    padding: 25px 20px !important;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .App2 {
     height: 100%;
@@ -702,5 +721,78 @@ body {
 .product-related .product-related_list-product .related-list-item .list-item-wrap:hover {
   -webkit-box-shadow: 0 0 10px 0 #ddd;
           box-shadow: 0 0 10px 0 #ddd;
+}
+
+.menu-right {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  font-style: normal;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 1px 0 #ddd;
+          box-shadow: 0 0 1px 0 #ddd;
+}
+
+.menu-right-top {
+  background-color: #333333;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-right-top .top-title {
+  text-transform: uppercase;
+  font-style: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.menu-right-top .top-title::before {
+  font-family: Linearicons-Free;
+  content: "\e871";
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.menu-right-top .top-icon {
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu-right-top .top-icon:after {
+  font-family: Linearicons-Free;
+  content: "\e870";
+}
+
+.menu-right-menu .memu-search {
+  padding: 20px 0;
+}
+
+.menu-right-menu .memu-search .kk-search {
+  height: 30px;
+}
+
+.menu-right-menu .memu-search .kk-search input {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.menu-right-menu .memu-search .kk-icon::after {
+  font-family: Linearicons-Free;
+  content: "\e86f";
+}
+
+.diquaphai {
+  right: -100%;
+}
+
+.diquatrai {
+  right: 0;
 }
 /*# sourceMappingURL=vietkhang.css.map */
